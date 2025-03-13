@@ -1,7 +1,7 @@
 import requests
 
 def generate_voice(text, filename="outputs/voice_output.mp3"):
-    api_key = "sk_cbce49d6c483948611d98d27a08a490b66df3712e98d5237"  # Replace with your actual API key
+    api_key = "sk_4f4f0d1aa464754b72e861c340a82485e1a44c3d5609e3e3"  # Replace with your actual API key
     voice_id = "EXAVITQu4vr4xnSDxMaL"  # Default voice: Rachel
 
     url = f"https://api.elevenlabs.io/v1/text-to-speech/{voice_id}"
